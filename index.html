@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comida favorita</title>
+</head>
+<body>
+    <center>
+        <h1>Comida Favorita</h1>
+
+        <script>
+            var comidas = parseInt(prompt(`Selecione sua comida favorita
+            1 - Strogonoff
+            2 - Fricassê
+            3 - Macarronada
+            4 - Batata frita
+            5 - Lasanha`
+            ))
+
+            switch (comidas) {
+                case 1: 
+                document.write("Sua comida favorita é Strogonoff")
+                break;
+                case 2: 
+                document.write("Sua comida favorita é Fricassê")
+                break;
+                case 3: 
+                document.write("Sua comida favorita é Macarronada")
+                break;
+                case 4: 
+                document.write("Sua comida favorita é Batata frita")
+                break;
+                case 5: 
+                document.write("Sua comida favorita é Lasanha")
+                break;
+                default:
+                document.write("Parece que nenhuma dessas comidas è sua favorita...")
+            }
+        </script>
+    </center>
+</body>
+</html>
